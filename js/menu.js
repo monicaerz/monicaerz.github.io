@@ -8,14 +8,14 @@ $(document).ready(function() {
 
     function hamburger_cross() {
 
-        if (isClosed == true) {
+        if (isClosed == false) {
             trigger.removeClass('is-open');
             trigger.addClass('is-closed');
-            isClosed = false;
+            isClosed = true;
         } else {
             trigger.removeClass('is-closed');
             trigger.addClass('is-open');
-            isClosed = true;
+            isClosed = false;
         }
     }
 
