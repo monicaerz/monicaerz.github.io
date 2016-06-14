@@ -1110,13 +1110,13 @@ a:active {
 /***contact****/
 
 
-#contact-content{
+#just-img-content{
     position: relative;
     overflow: hidden;
     height: 100%;
 }
 
-.card{
+.just-img{
     position: absolute;
     margin: auto;
     top: 0;
