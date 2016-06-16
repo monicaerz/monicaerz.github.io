@@ -819,6 +819,17 @@ a:active {
 
 /* Contenido */
 
+.img-desc .img-responsive {
+    margin: 0 auto;
+}
+
+.liv-img .img-responsive{
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
 .list-group-item {
     border: none;
 }
@@ -843,9 +854,11 @@ a:active {
 }
 
 .goal-sublist li {
+    list-style: none;
     font-family: 'consola';
     font-weight: 500;
     font-size: 1.2em;
+    text-align: justify;
 }
 
 .about-box {
@@ -874,8 +887,13 @@ a:active {
     font-weight: normal;
 }
 
-.carouser{
+.carouser {
     position: relative;
+}
+
+.item {
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .carousel-inner > .item > img {
@@ -942,10 +960,14 @@ a:active {
     padding-top: 1em;
 }
 
-
-
 #piggy-function {
-    margin: 0% 10% 0% 10%;
+    margin: auto% 0% auto% 0%;
+}
+
+#piggy-function-list {
+    margin: 0 auto 0 auto;
+    padding-left: 0px;
+    text-align: center;
 }
 
 #piggy-function #piggy-function-list li {
@@ -965,12 +987,6 @@ a:active {
     }
     #arqui-carousel {
         margin-left: 20px;
-    }
-    #piggy-function {
-        margin: 0% 10% 20% 10%;
-    }
-    #piggy-function #piggy-function-list li {
-        padding: 5em;
     }
 }
 
@@ -1034,8 +1050,6 @@ a:active {
 }
 
 
-
-
 /* Distri */
 
 .cd-tg-content {
@@ -1074,7 +1088,6 @@ a:active {
     color: white;
 }
 
-
 @media screen and (min-width: 480px) {
     .tg-title h1 {
         font-size: calc(100% + 4vw);
@@ -1092,31 +1105,31 @@ a:active {
 .video-container {
     padding-top: 5%;
     text-align: center;
-    overflow:hidden;
-    
+    overflow: hidden;
 }
 
-.video-container iframe, .video-container object, .video-container embed {
-    position:relative;
-    overflow:hidden;
-    
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: relative;
+    overflow: hidden;
 }
 
-#tg-video{
-    overflow:hidden;
+#tg-video {
+    overflow: hidden;
     padding-top: 20%;
 }
 
+
 /***contact****/
 
-
-#just-img-content{
+#just-img-content {
     position: relative;
     overflow: hidden;
     height: 100%;
 }
 
-.just-img{
+.just-img {
     position: absolute;
     margin: auto;
     top: 0;
@@ -1124,5 +1137,3 @@ a:active {
     right: 0;
     bottom: 0;
 }
-
-
