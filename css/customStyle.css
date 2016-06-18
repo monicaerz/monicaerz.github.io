@@ -940,6 +940,26 @@ a:active {
     overflow: hidden;
 }
 
+.carousel-caption{
+    overflow: visible;
+    color: black;
+    padding-top: 20px;
+}
+
+.carousel-indicators li{
+    border: solid black;
+}
+
+.carousel-indicators .active {
+    background-color: black;
+}
+
+.glyphicon
+{
+    color: black;
+}
+
+
 
 /* Run piggy run */
 

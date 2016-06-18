@@ -61,6 +61,11 @@ body {
     padding-top: 20px;
 }
 
+.glyphicon
+{
+    color: black;
+}
+
 .bottom{
     padding-top: 90%;
     text-align: center;
