@@ -748,78 +748,6 @@ a:active {
 }
 
 
-/* selected link */
-
-
-/*.media__body {
-    height: 100%;
-    background: rgba(41, 128, 185, 0.7);
-    bottom: 0;
-    color: white;
-    font-size: 1em;
-    left: 0;
-    opacity: 0;
-    overflow: hidden;
-    padding: 3.75em 3em;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    right: 0;
-    -webkit-transition: 0.6s;
-    transition: 0.6s;
-}
-
-.media__body:hover {
-    opacity: 1;
-}
-
-.media__body:after,
-.media__body:before {
-    bottom: 1em;
-    content: '';
-    left: 1em;
-    opacity: 0;
-    position: absolute;
-    right: 1em;
-    top: 1em;
-    -webkit-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    transform: scale(1.5);
-    -webkit-transition: 0.6s 0.2s;
-    transition: 0.6s 0.2s;
-}
-
-.media__body:before {
-    border-bottom: none;
-    border-top: none;
-    left: 2em;
-    right: 2em;
-}
-
-.media__body:after {
-    border-left: none;
-    border-right: none;
-    bottom: 2em;
-    top: 2em;
-}
-
-.media__body:hover:after,
-.media__body:hover:before {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-}
-
-.media__body h2 {
-    margin-top: 0;
-}
-
-.media__body p {
-    margin-bottom: 1.5em;
-}*/
-
-
 /* Contenido */
 
 .desc-text {
@@ -1207,13 +1135,14 @@ a:active {
 }
 
 
-/***contact****/
+/***contact and about***/
 
 #just-img-content {
     position: relative;
     overflow: hidden;
     height: 100%;
 }
+
 
 .just-img {
     position: absolute;
@@ -1222,4 +1151,27 @@ a:active {
     left: 0;
     right: 0;
     bottom: 0;
+}
+
+.about-me{
+    height: 100%;
+}
+
+.about-me-list{
+    padding: 0 0;
+    list-style: none;
+    margin-top: 40%;
+    text-align: center;
+    font-family: 'consola';
+    font-weight: 500;
+    color: black;
+    font-size: 2.2em;
+    color: green;
+}
+
+@media screen and (max-width: 800px) {
+    .about-me-list{
+        margin-top: 10%;
+        font-size: 1.2em;
+    }
 }
