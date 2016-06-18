@@ -938,7 +938,6 @@ a:active {
 
 .carousel-control.left,
 .carousel-control.right {
-    padding-top: 50%;
     background-image: none;
     overflow: hidden;
 }
@@ -1034,10 +1033,10 @@ a:active {
         display: inline-flex;
     }
     #piggy-carousel {
-        margin-left: 10%;
+        margin: 0 auto;
     }
     #arqui-carousel {
-        margin-left: 20px;
+        margin: 0 auto;
     }
 }
 
@@ -1097,13 +1096,16 @@ a:active {
 }
 
 #distri-carousel {
-    margin: 5% 20% 10% 20%;
+    margin: 0 auto;
 }
 
 @media screen and (min-width: 720px) {
     #distri-desc {
         margin: 0% 15% 0% 15%;
     }
+    #distri-carousel {
+    width: 50%;
+}
 }
 
 
