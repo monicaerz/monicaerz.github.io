@@ -819,16 +819,27 @@ a:active {
 
 /* Contenido */
 
+.desc-text {
+    text-align: justify;
+    padding: 5% 10% 5% 10%;
+    font-family: 'consola';
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.img-desc {
+    padding-top: 5%;
+}
+
 .img-desc .img-responsive {
     margin: 0 auto;
 }
 
-.liv-img .img-responsive{
+.liv-img .img-responsive {
     margin: 0 auto;
     padding-top: 3%;
     padding-bottom: 3%;
 }
-
 
 .list-group-item {
     border: none;
@@ -837,6 +848,10 @@ a:active {
 .goal-div {
     margin: 0% 25% 0% 25%;
     overflow: hidden;
+}
+
+.goal-list {
+    padding-left: 0px;
 }
 
 .goal-list .goal-div {
@@ -859,6 +874,15 @@ a:active {
     font-weight: 500;
     font-size: 1.2em;
     text-align: justify;
+}
+
+@media screen and (max-width: 720px) {
+    .goal-div {
+        margin: 0% 5% 0% 5%;
+    }
+    .img-desc {
+        padding-top: 10%;
+    }
 }
 
 .about-box {
@@ -957,7 +981,7 @@ a:active {
 }
 
 .piggy-car-col {
-    padding-top: 1em;
+    padding-top: 5em;
 }
 
 #piggy-function {
