@@ -921,9 +921,6 @@ a:active {
     font-weight: normal;
 }
 
-.carouser {
-    position: relative;
-}
 
 .item {
     padding-left: auto;
@@ -935,6 +932,12 @@ a:active {
     width: 600px;
     height: 400px;
 }
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img{
+    margin: 0 auto;
+}
+
+
 
 .carousel-control.left,
 .carousel-control.right {
@@ -1105,6 +1108,7 @@ a:active {
     }
     #distri-carousel {
     width: 50%;
+    padding-top: 3%;
 }
 }
 
