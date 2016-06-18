@@ -819,9 +819,10 @@ a:active {
 
 /* Contenido */
 
+
 .desc-text {
     text-align: justify;
-    padding: 5% 10% 5% 10%;
+    padding: 5% 10% 0% 10%;
     font-family: 'consola';
     font-weight: 500;
     font-size: 1.2em;
@@ -984,12 +985,9 @@ a:active {
     padding-top: 5em;
 }
 
-#piggy-function {
-    margin: auto% 0% auto% 0%;
-}
 
 #piggy-function-list {
-    margin: 0 auto 0 auto;
+    margin: 5% auto 0% auto;
     padding-left: 0px;
     text-align: center;
 }
@@ -1090,9 +1088,10 @@ a:active {
 }
 
 .tg-title {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background: #6CCCC5;
+    text-align: center;
 }
 
 .tg-title h1 {
@@ -1110,6 +1109,29 @@ a:active {
     font-weight: 500;
     font-size: 10vw;
     color: white;
+}
+
+
+#tg-logos-list {
+    margin: 2% auto;
+    padding-left: 0px;
+    text-align: center;
+}
+
+#tg-logos #tg-logos-list li {
+    display: inline-block;
+}
+
+#pegasus-link {
+    text-align: center;
+}
+
+#pegasus-link .link{
+    text-align: center;
+    font-family: 'consola';
+    font-weight: 500;
+    font-size: 1.2em;
+    color:black;
 }
 
 @media screen and (min-width: 480px) {
