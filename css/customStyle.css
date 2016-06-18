@@ -819,13 +819,19 @@ a:active {
 
 /* Contenido */
 
-
 .desc-text {
     text-align: justify;
     padding: 5% 10% 0% 10%;
     font-family: 'consola';
     font-weight: 500;
     font-size: 1.2em;
+}
+
+.desc-text h3 {
+    text-align: justify;
+    font-family: 'consola';
+    font-weight: bold;
+    font-size: 1.3em;
 }
 
 .img-desc {
@@ -985,7 +991,6 @@ a:active {
     padding-top: 5em;
 }
 
-
 #piggy-function-list {
     margin: 5% auto 0% auto;
     padding-left: 0px;
@@ -1071,6 +1076,12 @@ a:active {
     margin: 5% 20% 10% 20%;
 }
 
+@media screen and (min-width: 720px) {
+    #distri-desc {
+        margin: 0% 15% 0% 15%;
+    }
+}
+
 
 /* Distri */
 
@@ -1111,7 +1122,6 @@ a:active {
     color: white;
 }
 
-
 #tg-logos-list {
     margin: 2% auto;
     padding-left: 0px;
@@ -1126,12 +1136,12 @@ a:active {
     text-align: center;
 }
 
-#pegasus-link .link{
+#pegasus-link .link {
     text-align: center;
     font-family: 'consola';
     font-weight: 500;
     font-size: 1.2em;
-    color:black;
+    color: black;
 }
 
 @media screen and (min-width: 480px) {
