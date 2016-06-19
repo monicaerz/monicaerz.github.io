@@ -1143,6 +1143,10 @@ a:active {
     height: 100%;
 }
 
+#about-img-content {
+    position: relative;
+    overflow: hidden;
+}
 
 .just-img {
     position: absolute;
@@ -1155,22 +1159,26 @@ a:active {
 
 .about-me{
     height: 100%;
-}
-
-.about-me-list{
+    margin-top: 10%;
+    margin-left: 2%;
     padding: 0 0;
     list-style: none;
-    margin-top: 40%;
     text-align: center;
     font-family: 'consola';
     font-weight: 500;
     color: black;
     font-size: 2.2em;
-    color: green;
+    color: #2E3235;
 }
 
-@media screen and (max-width: 800px) {
-    .about-me-list{
+@media screen and (min-width: 720px) {
+    #about-img-content{
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .about-me{
         margin-top: 10%;
         font-size: 1.2em;
     }
