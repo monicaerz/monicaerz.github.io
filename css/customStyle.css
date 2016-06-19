@@ -299,7 +299,7 @@ html {
     transition: transform 0s 0.5s, opacity 0s 0.5s;
 }
 
-.visible .cd-title{
+.visible .cd-title {
     width: 100%;
 }
 
@@ -849,7 +849,6 @@ a:active {
     font-weight: normal;
 }
 
-
 .item {
     padding-left: auto;
     padding-right: auto;
@@ -861,11 +860,13 @@ a:active {
     height: 400px;
 }
 
-.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img{
+.carousel-inner > .item > a > img,
+.carousel-inner > .item > img,
+.img-responsive,
+.thumbnail a > img,
+.thumbnail > img {
     margin: 0 auto;
 }
-
-
 
 .carousel-control.left,
 .carousel-control.right {
@@ -873,13 +874,13 @@ a:active {
     overflow: hidden;
 }
 
-.carousel-caption{
+.carousel-caption {
     overflow: visible;
     color: black;
     padding-top: 20px;
 }
 
-.carousel-indicators li{
+.carousel-indicators li {
     border: solid black;
 }
 
@@ -887,11 +888,9 @@ a:active {
     background-color: black;
 }
 
-.glyphicon
-{
+.glyphicon {
     color: black;
 }
-
 
 
 /* Run piggy run */
@@ -1035,9 +1034,9 @@ a:active {
         margin: 0% 15% 0% 15%;
     }
     #distri-carousel {
-    width: 50%;
-    padding-top: 3%;
-}
+        width: 50%;
+        padding-top: 3%;
+    }
 }
 
 
@@ -1157,7 +1156,7 @@ a:active {
     bottom: 0;
 }
 
-.about-me{
+.about-me {
     height: 100%;
     margin-top: 10%;
     margin-left: 2%;
@@ -1172,17 +1171,18 @@ a:active {
 }
 
 @media screen and (min-width: 720px) {
-    #about-img-content{
+    #about-img-content {
         height: 100%;
     }
 }
 
 @media screen and (max-width: 1080px) {
-    .about-me{
+    .about-me {
         margin-top: 10%;
         font-size: 1.2em;
     }
 }
+
 
 /* Perso */
 
@@ -1247,6 +1247,15 @@ a:active {
         margin: 0% 15% 0% 15%;
     }
     #perso-carousel {
-    padding-top: 3%;
+        padding-top: 3%;
+    }
 }
+
+.bottom {
+    padding-top: 10%;
+    text-align: center;
+    font-family: 'consola';
+    font-weight: 500;
+    font-size: 1.2em;
+    color: black;
 }
